@@ -12,3 +12,12 @@ System must maintain 100% (most of the time 99.99% practically) availability eve
 provide the backup for the failed component and process the request successfully this is achieved by Replication. Replication is one of the important features of the Distributed Systems and is
 implemented by creating multiple replications of the servers known as replicas performing the same functionality as requested by client individually.
 In this project, we are designing our DAMS application as Software Failure Tolerance using Active Total Order Replication with Reliable Multicast using Kaashoek’s Protocol.
+
+# Technology Used
+
+1. Replication - Active Replication
+2. Total Order Reliable Multi-cast using Sequencer
+3. Kaashoek’s Protocol
+
+# Software Fault-Tolerance Data-Flow Diagram
+![image](https://github.com/anam-ayesha3097/DAMS-WebService/assets/100099471/4b4480bb-d870-49ce-807c-5afeb137e989)
