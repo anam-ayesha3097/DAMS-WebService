@@ -21,3 +21,17 @@ In this project, we are designing our DAMS application as Software Failure Toler
 
 # Software Fault-Tolerance Data-Flow Diagram
 ![image](https://github.com/anam-ayesha3097/DAMS-WebService/assets/100099471/4b4480bb-d870-49ce-807c-5afeb137e989)
+
+# Installation
+
+Install and Configure DAMS-WebServices(Distributed Appointment Management System) to Handle Software Failure Tolerance
+
+1. Configure the src folder on 3 different systems (as the project works on LAN)
+2. Setup each Replica Manager (RM) on each system (ReplicaManager1 on one system and rest on another).
+3. Start each server (MTLServer,QUEServer, SHEServer)
+4. Start FrontEnd (FrontEnd)
+5. Run the ReplicaManagers on each system to see the reply-response for each RM on the servers as requested.
+
+# Test-Cases
+
+![image](https://github.com/anam-ayesha3097/DAMS-WebService/assets/100099471/832cf0cd-ba74-4995-a47f-fb2e63a6ff90)
